@@ -58,9 +58,6 @@ int main()
 			}
 		}
 
-		while (!pq1.empty() && cnt[pq1.top()] == 0) pq1.pop();
-		while (!pq2.empty() && cnt[pq2.top()] == 0) pq2.pop();
-
 		if (pq1.empty() || pq2.empty())
 			cout << "EMPTY" << "\n";
 		else
